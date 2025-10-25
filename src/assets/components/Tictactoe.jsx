@@ -3,7 +3,7 @@ import Box from "./Box";
 
 const Tictactoe = () => {
 	const [data, setData] = useState(Array(9).fill(""));
-	const player_img = ["../public/user1.jpg", "../public/user2.jpg"];
+	const player_img = ["/user1.jpg", "/user2.jpg"];
 
 	let div_ref = useRef(null);
 
